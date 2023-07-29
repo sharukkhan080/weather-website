@@ -1,18 +1,3 @@
-console.log('client side js loaded')
-
-
-// fetch('http://localhost:3000/weather?adress=boston').then((res) => {
-//     res.json().then((data) => {
-//         if(data.error){
-//             console.log()
-//         }
-//         else{
-//             console.log(data.location)
-//             console.log(data.forecast)
-
-//         }
-//     })
-// })
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const msg1 = document.querySelector('#messsage-1')
